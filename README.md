@@ -4,8 +4,6 @@
  <h4 align="center"> Presentado por por: 
     Miller Alejandro Rodriguez Gomez</h4>
     
-      ![image](https://user-images.githubusercontent.com/82844360/203447049-a22ee1f0-921c-4d5f-b335-fd62d647e0d0.png)
-
 # Tabla de Contenidos
 [1. Introducción](#introducción)
 
@@ -14,6 +12,10 @@
 [3. Necesidad](#necesidad)
 
 [4. Diseño de interfaz](#diseño-de-interfaz)
+
+[5. Arquitectura de software](#arquitectura-de-software)
+
+[6. Conclusiones](#conclusiones)
 
 # Introducción
 En el mundo gastronomico es indispensable mantener en orden el inventario para poder tener un control de materia prima 
@@ -39,3 +41,16 @@ Finalmente, como lenguaje de programacion se decidio hacer uso de C# al compleme
 
   La necesidad que se desea satisfacer al usuario es la capacidad de gestionar los productos que tienen a la venta para el consumidor, volviendolo mas efectivo 
   y eficiente generando una mayor productividad. 
+  
+# Diseño de interfaz
+Iniciamos en el login a la cual solo tienen acceso el personal de la pizzeria, el administrador y el vendedor. El administrador tendra acceso a las herramientas de crear, editar y borrar productos de la pizzeria, mientras que el empleado solo tendra acceso a la edicion de los productos.
+El tercer usuario sera el consumidor, en este caso el invitado, el cual solo tendra acceso al inventario sin poder realizar ninguna modificación.
+
+# Arquitectura de Software
+La arquitectura que se manejar esta dividida en las capas datos, entidad y negocios.
+
+# Conclusiones 
+Con la resolucion del proyecto se llego a las siguientes conclusiones:<br>
+ * Gracias al proyecto se puede optimizar el tiempo empleado por el personal de la pizzeria al momento de administrar los productos<br>
+ * El uso de capas facilita el desarrollo de aplicaciones.<br>
+ * Para mayor comodidad es recomendado usar sistemas que convergen entre si.<br>
